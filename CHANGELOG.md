@@ -1,5 +1,12 @@
 # Histórico de versões
 
+## 1.8.3.0 — 21/11/2026
+
+- Corrige a regressão que desligava os modos de mira ao esconder/minimizar o menu.
+- Esconder/reabrir preserva os switches e o worker Python. A parada fica restrita ao encerramento do aplicativo.
+- Mantém o ajuste do ESP para falhas transitórias de câmera e leitura, com expiração limitada.
+- Build Release x64 e teste de regressão aprovados. Comportamento em partida ainda não validado.
+
 ## 1.8.1.0 — 21/11/2026
 
 - Interface ImGui alternativa com navegação inferior e acesso às funções do painel.
